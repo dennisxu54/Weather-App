@@ -1,0 +1,35 @@
+.container {
+  padding: 0 2rem;
+  height: 100vh;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% * (1/5) - 10px - 1px);
+  border: 1px solid #4d64ca;
+  padding: 1rem;
+  margin: 10px 0 0 2%;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaeada;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
